@@ -1,10 +1,13 @@
-import NuevaAlerta from '../../Components/Buttons/NuevaAlerta';
+import Encabezado from '../../Components/Encabezado';
 import React from "react";
+import {Layout} from 'antd'
 
 class Index extends React.Component{
     render(){
         return(
-            <NuevaAlerta />
+            <Layout>
+                <Encabezado />
+            </Layout>
         );
     }
 }
