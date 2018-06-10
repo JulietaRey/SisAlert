@@ -1,28 +1,29 @@
-import Alerta from '../../Common/Alertas/Alerta';
+import Prevencion from '../../Common/Prevencion/Prevencion';
+import Accion from '../../Common/Accion/Accion';
+import Contencion from '../../Common/Contencion/Contencion';
 import React from "react";
 import { Row, Col  } from 'antd'
 class Columnas extends React.Component{
      render(){
         const ColumnaStyle= {
-            padding: '3em',
-            borderBottom: '1px solid black'            
+            padding: '3em',   
         }
         return(
             <content style= {ColumnaStyle}>
                 <Row type="flex" around="xs" >
                     <Col xs={8} >
                         <div className="alerta uno">
-                                <Alerta />
+                                <Prevencion />
                         </div>
                     </Col>
                    <Col xs={8} >
                         <div className="alerta dos">
-                                <Alerta />
+                                <Accion />
                         </div>
                     </Col>
                     <Col xs={8} >
                         <div className="alerta tres">
-                                <Alerta />
+                                <Contencion />
                         </div>
                     </Col>
                 </Row>
