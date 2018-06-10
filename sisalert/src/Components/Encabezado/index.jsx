@@ -6,7 +6,8 @@ import { Row, Col  } from 'antd'
 class Encabezado extends React.Component{
     render(){
         const headerStyle= {
-            borderBottom: '1px solid black'
+            borderBottom: '1px solid black',
+            padding: '0px 10px'
         }
         return(
             <header style= {headerStyle}>

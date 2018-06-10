@@ -5,12 +5,17 @@ class Iconos extends React.Component{
     render(){
         const FullWidth = {
             fontSize: '100%',
-            textAlign: 'center'
+            textAlign: 'right',
+            paddingRight: '10px'
+        }
+        const iconStyle = {
+            fontSize: '32px',
+            color: 'white',
         }
         return (
             <div style={FullWidth}>
-               <Icon type="cloud" />
-               <Icon type="dingding" />
+               <Icon type="cloud" style={iconStyle} />
+               <Icon type="dingding" style={iconStyle}/>
             </div>
         );
     }
