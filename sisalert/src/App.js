@@ -4,12 +4,12 @@ import Home from './Scenes/Home';
 
 const BasicExample = () => (
   <Router>
-    <div>
+    <div> 
       <Route exact path="/" component={Home} />
       {/* <Route path="/about" component={About} />
       <Route path="/topics" component={Topics} /> */}
     </div>
   </Router>
 );
-
+  
 export default BasicExample;
