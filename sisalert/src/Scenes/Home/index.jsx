@@ -12,7 +12,7 @@ class Index extends React.Component{
         return(
             <Layout style={{marginBottom:'200px'}}>
                 <Encabezado />
-                <Alerta />
+                <a href="/details"><Alerta /></a>
                 <Columnas />
                 <Menu />
                 <SobreNosotros />

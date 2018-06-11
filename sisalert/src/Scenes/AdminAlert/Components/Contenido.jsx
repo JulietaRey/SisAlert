@@ -1,5 +1,4 @@
 import React from 'react';
-import THeader from './THeader'
 import {Table, Icon} from 'antd';
 const {Column} = Table;
 class Contenido extends React.Component{
@@ -34,7 +33,7 @@ class Contenido extends React.Component{
       return (
         <Table dataSource={dataSource}>
             <Column
-              title={<THeader name={{text:'Titulo'}}/> }
+              title='Titulo'
               dataIndex="titulo"
               key="titulo"
             />
