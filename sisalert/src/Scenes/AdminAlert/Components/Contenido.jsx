@@ -2,34 +2,57 @@ import React from 'react';
 import {Table} from 'antd'
 class Contenido extends React.Component{
     render(){
+        const backstyle= {
+            padding: '1em'
+        }
+        
         const dataSource = [{
             key: '1',
-            name: 'Mike',
-            age: 32,
-            address: '10 Downing Street'
+            titulo: 'Tormentas fuertes en GBA Sur',
+            visibilidad: 'si',
+            vigencia: '6hs',
+            inicio: '10/06/2018',
+            acciones: 'te la regalo'
           }, {
             key: '2',
-            name: 'John',
-            age: 42,
-            address: '10 Downing Street'
+            titulo: 'Inundaciones en Tandil',
+            visibilidad: 'no',
+            vigencia: '3d',
+            inicio: '11/06/2018',
+            acciones: 'te la regalo'
+          }, {
+            key: '3',
+            titulo: 'Tornado en Mar Azul',
+            visibilidad: 'si',
+            vigencia: '2hs',
+            inicio: '11/06/2018',
+            acciones: 'te la regalo'
           }];
           
           const columns = [{
-            title: 'Name',
-            dataIndex: 'name',
-            key: 'name',
+            title: 'Titulo',
+            dataIndex: 'titulo',
+            key: 'titulo',
           }, {
-            title: 'Age',
-            dataIndex: 'age',
-            key: 'age',
+            title: 'Visibilidad',
+            dataIndex: 'visibilidad',
+            key: 'visibilidad',
           }, {
-            title: 'Address',
-            dataIndex: 'address',
-            key: 'address',
+            title: 'Vigencia',
+            dataIndex: 'vigencia',
+            key: 'vigencia',
+          }, {
+            title: 'Inicio',
+            dataIndex: 'inicio',
+            key: 'inicio',
+          }, {
+            title: 'Acciones',
+            dataIndex: 'acciones',
+            key: 'acciones',
           }];
           
         return (
-            <Table dataSource={dataSource} columns={columns}/>
+            <Table style= {backstyle} dataSource={dataSource} columns={columns}/>
         );
     }
 }
