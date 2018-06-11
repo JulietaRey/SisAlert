@@ -6,10 +6,10 @@ import { Row, Col  } from 'antd'
 class Columnas extends React.Component{
      render(){
         const ColumnaStyle= {
-            padding: '3em',   
+            margin: '3em' 
         }
         return(
-            <content style= {ColumnaStyle}>
+            <div style= {ColumnaStyle}>
                 <Row type="flex" around="xs" >
                     <Col xs={8} >
                         <div className="alerta uno">
@@ -27,7 +27,7 @@ class Columnas extends React.Component{
                         </div>
                     </Col>
                 </Row>
-            </content>
+            </div>
         );
     }
 }

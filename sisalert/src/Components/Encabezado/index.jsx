@@ -7,7 +7,7 @@ class Encabezado extends React.Component{
     render(){
         const headerStyle= {
             borderBottom: '1px solid black',
-            padding: '0px 10px'
+            padding: '0px 20px'
         }
         return(
             <header style= {headerStyle}>

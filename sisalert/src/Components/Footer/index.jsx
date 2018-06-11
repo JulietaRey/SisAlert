@@ -1,30 +1,36 @@
-import React from "react";
-import SiteMap from './Components/SiteMap';
+import MapaSitio from './Components/MapaSitio'
+import Links from './Components/Links'
 import Copyright from './Components/Copyright'
-import { Row, Col, Layout  } from 'antd';
-const Footer = Layout.Footer;
-class Pie extends React.Component{
+import React from "react";
+import { Row, Col, Layout } from 'antd';
+const FooterAnt = Layout.Footer;
+class Footer extends React.Component{
     render(){
-        const footerStyle= {
-            padding: '10px 0px'
+        const alertStyle= {
+            padding: '5px 0px'            
         }
         return(
-            <footer>
-                <Footer>
-                    <Row style={footerStyle} type="flex" justify="center" align="middle">
+            <FooterAnt >
+                <Row align="middle" style= {alertStyle}>
+                    <Row type="flex" justify="center" align="middle" >
                         <Col>
-                            <SiteMap />
-                        </Col>
+                            <MapaSitio />
+                      </Col>
                     </Row>
-                    <Row  style={footerStyle} type="flex" justify="center" align="middle">
-                        <Col>
-                            <Copyright />
-                        </Col>
+                    <Row type="flex" justify="center" align="middle" >
+                      <Col>
+                        <Links />
+                      </Col>
                     </Row>
-                </Footer>
-            </footer>
+                    <Row type="flex" justify="center" align="middle" >
+                      <Col>
+                        <Copyright />
+                      </Col>
+                    </Row>
+                </Row>
+            </FooterAnt>
         );
     }
 }
 
-export default Pie;
+export default Footer;
