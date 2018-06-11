@@ -9,7 +9,7 @@ class Volver extends React.Component{
 
         return (
             <div style={FullWidth}>
-                <a href=""> Volver</a>
+                <a href={this.props.sendTo.path}> Volver</a>
             </div>
         );
     }

@@ -9,8 +9,15 @@ class Footer extends React.Component{
         const alertStyle= {
             padding: '5px 0px'            
         }
+        const footerStyle = {
+            position: 'fixed',
+            bottom: '0px',
+            left: '0px',
+            right: '0px',
+            marginBottom: '0px'
+        }
         return(
-            <FooterAnt >
+            <FooterAnt style={footerStyle} >
                 <Row align="middle" style= {alertStyle}>
                     <Row type="flex" justify="center" align="middle" >
                         <Col>

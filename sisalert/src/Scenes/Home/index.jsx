@@ -10,7 +10,7 @@ import {Layout} from 'antd'
 class Index extends React.Component{
     render(){
         return(
-            <Layout>
+            <Layout style={{marginBottom:'200px'}}>
                 <Encabezado />
                 <Alerta />
                 <Columnas />

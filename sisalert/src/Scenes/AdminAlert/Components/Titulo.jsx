@@ -7,7 +7,7 @@ class Titulo extends React.Component{
             textAlign: 'left',
             color: '38618c',
             fontFamily: 'Arvo',
-            fontStyle: 'bold',
+            fontWeight: 'bold',
         }
         return (
             <div style={FullWidth}>

@@ -7,7 +7,7 @@ class AdministrarAlertas extends React.Component{
             width: '100%'
         }
         return (
-            <Button type="primary" style={ButtonStyle}>
+            <Button href={'/admin'} type="primary" style={ButtonStyle}>
                 <Icon type="plus" /> Administrar alertas
             </Button>
         );
