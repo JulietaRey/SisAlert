@@ -5,7 +5,7 @@ import Info from './Info'
 class Detalles extends React.Component{
     render(){
         return(
-            <div>
+            <div style={{fontSize:'18px'}}>
                 <Row>
                     <Col xl={12} xs={24}>
                         <Info showInfo={{ title:'Gravedad', text:'Media', icon:'warning'}}/>
@@ -18,8 +18,15 @@ class Detalles extends React.Component{
                         <Info showInfo={{ title:'Zonas afectadas', text:'GBA sur y zonas aledañas', icon:'environment-o'}}/>
                     </Col>
                 <Row>
+                    <div>
+                        <b>Descripción:</b> <p>
+                            Lorem ipsum dolor sit amet, consectetur adispscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non publinar lorem felis nec erat.
+                        </p>
+                        <a href="">Leer más</a>
+                    </div>
                 </Row>
                 <Row>
+                    <hr/>
                 </Row>
             </div>
         );

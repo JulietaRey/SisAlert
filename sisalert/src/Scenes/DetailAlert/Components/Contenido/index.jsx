@@ -17,11 +17,11 @@ class Contenido extends React.Component{
                         <Title />
                     </Col>
                 </Row>
-                <Row>
-                    <Col xs={24} xl={18}>
+                <Row justify="space-between">
+                    <Col xs={24} xl={16}>
                         <Detalles/>
-                        {/* <Precauciones />
-                        <Numeros /> */}
+                        <Precauciones />
+                        <Numeros />
                     </Col>
                     <Col xs={24} xl={6}>
                         {/* <Iconos/>
