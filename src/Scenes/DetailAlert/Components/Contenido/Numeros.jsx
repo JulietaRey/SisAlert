@@ -7,7 +7,8 @@ class Numeros extends React.Component {
             fontFamily: 'Arvo',
             color: '#153668', 
             fontWeight: 'bold',
-            marginBottom: '-10px'
+            marginBottom: '-10px',
+            fontSize: '32px'
         }
         const data = [
             {
@@ -25,16 +26,19 @@ class Numeros extends React.Component {
                 number: '107',
                 text: 'Emergencia médica en la vía pública'
             }
-
         ]
+        const listStyle = {
+            fontSize: '18px'
+        }
         return (
-            <div>
+            <div style={{marginBottom:'20px'}}>
                 <h2 style={headerStyle}>Números de emergencia</h2>
                 <i>Atención las 24hs</i>
                 <List 
                     size = 'small'
                     dataSource = {data}
-                    split={false}                    
+                    split={false}    
+                    style={listStyle}
                     renderItem={item => (<List.Item>
                         <Icon type="double-right"/>
                         <b>{item.number}</b>

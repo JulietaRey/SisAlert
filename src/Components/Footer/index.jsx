@@ -18,26 +18,25 @@ class Footer extends React.Component{
         }
         return(
             <footer>
-
-            <FooterAnt >
-                <Row align="middle" style= {alertStyle}>
-                    <Row type="flex" justify="center" align="middle" >
-                        <Col>
-                            <MapaSitio />
-                      </Col>
+                <FooterAnt style={footerStyle} >
+                    <Row align="middle" style= {alertStyle}>
+                        <Row type="flex" justify="center" align="middle" >
+                            <Col>
+                                <MapaSitio />
+                            </Col>
+                        </Row>
+                        <Row type="flex" justify="center" align="middle" >
+                            <Col>
+                            <Links />
+                            </Col>
+                        </Row>
+                        <Row type="flex" justify="center" align="middle" >
+                            <Col>
+                            <Copyright />
+                            </Col>
+                        </Row>
                     </Row>
-                    <Row type="flex" justify="center" align="middle" >
-                      <Col>
-                        <Links />
-                      </Col>
-                    </Row>
-                    <Row type="flex" justify="center" align="middle" >
-                      <Col>
-                        <Copyright />
-                      </Col>
-                    </Row>
-                </Row>
-            </FooterAnt>
+                </FooterAnt>
             </footer>
         );
     }

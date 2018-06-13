@@ -23,9 +23,9 @@ class Contenido extends React.Component{
                         <Precauciones />
                         <Numeros />
                     </Col>
-                    <Col xs={24} xl={6}>
-                        {/* <Iconos/>
-                        <Satelital /> */}
+                    <Col xs={24} xl={8}>
+                        <Iconos/>
+                        <Satelital />
                     </Col>
                 </Row>
             </Content>

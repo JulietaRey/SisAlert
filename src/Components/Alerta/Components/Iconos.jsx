@@ -5,7 +5,7 @@ class Iconos extends React.Component{
     render(){
         const FullWidth = {
             fontSize: '100%',
-            textAlign: 'right',
+            textAlign: 'center',
             paddingRight: '10px'
         }
         const iconStyle = {
