@@ -3,7 +3,7 @@ import Footer from '../../Components/Footer';
 import Contenido from './Components/Contenido';
 import Volver from '../../Components/Volver';
 import React from "react";
-import {Layout, Col, Row} from 'antd';
+import {Layout} from 'antd';
 
 class DetailAlert extends React.Component{
     render(){
