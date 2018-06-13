@@ -10,7 +10,7 @@ import {Layout, Col, Row} from 'antd';
 class AdminAlert extends React.Component{
     render(){
         return(
-            <Layout style={{marginBottom:'200px'}}>
+            <Layout>
                 <Encabezado />
                 <div style={{padding: '0px 20px'}}>
                 <Volver />

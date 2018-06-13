@@ -10,14 +10,16 @@ class Footer extends React.Component{
             padding: '5px 0px'            
         }
         const footerStyle = {
-            position: 'fixed',
+            position: 'static',
             bottom: '0px',
             left: '0px',
             right: '0px',
             marginBottom: '0px'
         }
         return(
-            <FooterAnt style={footerStyle} >
+            <footer>
+
+            <FooterAnt >
                 <Row align="middle" style= {alertStyle}>
                     <Row type="flex" justify="center" align="middle" >
                         <Col>
@@ -36,6 +38,7 @@ class Footer extends React.Component{
                     </Row>
                 </Row>
             </FooterAnt>
+            </footer>
         );
     }
 }
