@@ -10,7 +10,7 @@ class Welcome extends React.Component{
         return (
             <div style={FullWidth}>
                 Bienvenido Admin |
-                <a href=""> Cerrar sesión</a>
+                <a href={'/'}> Cerrar sesión</a>
             </div>
         );
     }

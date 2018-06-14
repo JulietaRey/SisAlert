@@ -2,7 +2,7 @@ import Footer from '../../Components/Footer';
 import Volver from '../../Components/Volver';
 import Sesion from './Components/Sesion';
 import React from "react";
-import {Layout, Col, Row} from 'antd';
+import {Layout} from 'antd';
 
 class LoginUser extends React.Component{
     render(){
