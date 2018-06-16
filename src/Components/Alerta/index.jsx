@@ -6,7 +6,7 @@ import { Row, Col } from 'antd'
 class Alerta extends React.Component{
     render(){
         const alertStyle= {
-            background: '#fe5a61',
+            background: 'rgba(180, 0, 0, 0.8117647058823529)',
             borderRadius: '20px',
             padding: '20px'            
         }

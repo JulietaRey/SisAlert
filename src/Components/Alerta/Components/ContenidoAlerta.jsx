@@ -3,7 +3,7 @@ import React from 'react';
 class ContenidoAlerta extends React.Component{
     render(){
         const FullWidth = {
-            fontSize: '90%',
+            fontSize: '16px',
             color: 'white',
             textAlign: 'left',
             padding: '2em'

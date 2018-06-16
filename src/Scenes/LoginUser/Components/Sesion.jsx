@@ -29,7 +29,7 @@ class Sesion extends React.Component{
         </FormItem>
         <FormItem>
             <Checkbox>Recuerdame</Checkbox>
-          <a className="login-form-forgot" href="">Olvidé mi contraseña</a>
+          <a className="login-form-forgot" href="/recover">Olvidé mi contraseña</a>
         </FormItem>
       </Form>
       </Row>

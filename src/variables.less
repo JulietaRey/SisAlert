@@ -6,27 +6,27 @@
 @ant-prefix             : ant;
 
 // -------- Colors -----------
-@primary-color          :#fe5a61;
+@primary-color          :rgba(180, 0, 0, 0.8117647058823529);
 @info-color             : @blue-6;
 @success-color          : @green-6;
 @processing-color       : @primary-color;
 @error-color            : @red-6;
 @highlight-color        : @red-6;
 @warning-color          : @gold-6;
-@normal-color           : #d9d9d9;
+@normal-color           : #F7F7F7;
 
 // Color used by default to control hover and active backgrounds and for
 // alert info backgrounds.
-@primary-1: color(~`colorPalette("@{primary-color}", 1)`);  // replace tint(@primary-color, 90%)
-@primary-2: color(~`colorPalette("@{primary-color}", 2)`);  // replace tint(@primary-color, 80%)
-@primary-3: color(~`colorPalette("@{primary-color}", 3)`);  // unused
-@primary-4: color(~`colorPalette("@{primary-color}", 4)`);  // unused
-@primary-5: color(~`colorPalette("@{primary-color}", 5)`);  // color used to control the text color in many active and hover states, replace tint(@primary-color, 20%)
-@primary-6: @primary-color;                                 // color used to control the text color of active buttons, don't use, use @primary-color
-@primary-7: color(~`colorPalette("@{primary-color}", 7)`);  // replace shade(@primary-color, 5%)
-@primary-8: color(~`colorPalette("@{primary-color}", 8)`);  // unused
-@primary-9: color(~`colorPalette("@{primary-color}", 9)`);  // unused
-@primary-10: color(~`colorPalette("@{primary-color}", 10)`);  // unused
+// @primary-1: color(~`colorPalette("@{primary-color}", 1)`);  // replace tint(@primary-color, 90%)
+// @primary-2: color(~`colorPalette("@{primary-color}", 2)`);  // replace tint(@primary-color, 80%)
+// @primary-3: color(~`colorPalette("@{primary-color}", 3)`);  // unused
+// @primary-4: color(~`colorPalette("@{primary-color}", 4)`);  // unused
+// @primary-5: color(~`colorPalette("@{primary-color}", 5)`);  // color used to control the text color in many active and hover states, replace tint(@primary-color, 20%)
+// @primary-6: @primary-color;                                 // color used to control the text color of active buttons, don't use, use @primary-color
+// @primary-7: color(~`colorPalette("@{primary-color}", 7)`);  // replace shade(@primary-color, 5%)
+// @primary-8: color(~`colorPalette("@{primary-color}", 8)`);  // unused
+// @primary-9: color(~`colorPalette("@{primary-color}", 9)`);  // unused
+// @primary-10: color(~`colorPalette("@{primary-color}", 10)`);  // unused
 
 // Base Scaffolding Variables
 // ---
@@ -72,7 +72,7 @@
 @icon-url               : "https://at.alicdn.com/t/font_148784_v4ggb6wrjmkotj4i";
 
 // LINK
-@link-color             : @primary-color;
+@link-color             : #AD0002;
 @link-hover-color       : color(~`colorPalette("@{link-color}", 5)`);
 @link-active-color      : color(~`colorPalette("@{link-color}", 7)`);
 @link-decoration        : none;
@@ -380,7 +380,7 @@
 // Card
 // ---
 @card-head-color: @heading-color;
-@card-head-background: #fe5a61;
+@card-head-background: rgba(180, 0, 0, 0.8117647058823529);
 @card-head-padding: 16px;
 @card-inner-head-padding: 12px;
 @card-padding-base: 24px;

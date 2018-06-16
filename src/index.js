@@ -5,3 +5,8 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+if (process.env.NODE_ENV !== 'production') {
+  var axe = require('react-axe');
+  axe(React, ReactDOM, 1000);
+}

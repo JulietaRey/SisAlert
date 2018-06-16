@@ -4,7 +4,7 @@ import Image from './imgsatelital.png';
 class Satelital extends React.Component{
     render(){
         return (
-            <img width="100%" src={Image} alt="detalle satelital del evento"/>
+            <img width={this.props.heigth} src={Image} alt="detalle satelital del evento"/>
         );
     }
 }

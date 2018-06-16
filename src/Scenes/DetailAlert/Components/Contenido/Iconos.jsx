@@ -6,7 +6,7 @@ class Iconos extends React.Component {
     render(){
         const cardStyle = {
             borderRadius: '15px',
-            border: '1px solid #fe5a61'
+            border: '1px solid rgba(180, 0, 0, 0.8117647058823529)',
         }
         const itemStyle = {
             fontSize: '18px'
