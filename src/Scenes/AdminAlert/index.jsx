@@ -15,7 +15,7 @@ class AdminAlert extends React.Component{
                 <Encabezado />
                 <Navbar />
                 <div style={{padding: '0px 20px'}}>
-                <Volver />
+                    <Volver />
                     <Row type="flex" justify="space-between" align="middle">
                         <Col xs={24} sm={7} md={8} lg={6} xl={8}>
                             <div className="titulo">
@@ -30,7 +30,7 @@ class AdminAlert extends React.Component{
                             </Row>
                         </Col>
                     </Row>
-                <Contenido />
+                    <Contenido />
                 </div>
                 <Footer /> 
             </Layout>

@@ -13,46 +13,55 @@ class Contenido extends React.Component{
           visibilidad: 'si',
           vigencia: '6hs',
           inicio: '10/06/2018',
-          acciones: 'te la regalo'
+          acciones: ''
         }, {
           key: '2',
           titulo: 'Inundaciones en Tandil',
           visibilidad: 'no',
           vigencia: '3d',
           inicio: '11/06/2018',
-          acciones: 'te la regalo'
+          acciones:''
         }, {
           key: '3',
           titulo: 'Tornado en Mar Azul',
           visibilidad: 'si',
           vigencia: '2hs',
           inicio: '11/06/2018',
-          acciones: 'te la regalo'
+          acciones: ''
         }];
         
       return (
-        <Table dataSource={dataSource}>
+        <Table dataSource={dataSource} scroll={{ x: 1300 }}>
             <Column
               title='Titulo'
               dataIndex="titulo"
               key="titulo"
+              width= '50'
+              fixed="left"
             />
             <Column
               title="Visibilidad"
               dataIndex="visibilidad"
               key="visibilidad"
+              width= '50'
             />
             <Column
               title="Vigencia"
               dataIndex="vigencia"
               key="vigencia"
+              width= '50'
+
             />
             <Column
               title="Inicio"
+              width= '50'
+
               dataIndex="inicio"
               key="inicio"
             />
             <Column
+              width= '150'
+
               title="Acciones"
               key="acciones"
               render={(text, record) => (
