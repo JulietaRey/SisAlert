@@ -5,7 +5,8 @@ class Copyright extends React.Component{
         const FullWidth = {
             fontSize: '90%',
             textAlign: 'center',
-            color: '#a5a3a3',
+            color: '#E3E3E3',
+            fontStyle: 'italic'
         }
         return (
             <div style={FullWidth}>

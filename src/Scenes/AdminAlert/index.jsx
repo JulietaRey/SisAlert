@@ -3,6 +3,7 @@ import Footer from '../../Components/Footer';
 import Contenido from './Components/Contenido'
 import Titulo from './Components/Titulo'
 import GenerarAlertas from './Components/GenerarAlertas'
+import Navbar from '../../Components/Navbar';
 import Volver from '../../Components/Volver';
 import React from "react";
 import {Layout, Col, Row} from 'antd';
@@ -12,6 +13,7 @@ class AdminAlert extends React.Component{
         return(
             <Layout>
                 <Encabezado />
+                <Navbar />
                 <div style={{padding: '0px 20px'}}>
                 <Volver />
                     <Row type="flex" justify="space-between" align="middle">

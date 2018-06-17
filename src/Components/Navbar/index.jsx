@@ -15,38 +15,39 @@ class Navbar extends React.Component{
         const itemStyle={
             bottom: '-8px',
             right: '16px',
-            position: 'absolute'
+            position: 'absolute',
+            fontFamily: 'Arvo'
         }
         return(
             <nav>
                 <Row type="flex" justify="center">
                     <Col>
                         <div style={{position:'relative'}}>
-                            <Accion />
+                            <Accion tam="35px" />
                             <h2 style={itemStyle}>Acción</h2>
                         </div>
                     </Col>
                     <Col>
                         <div style={{position:'relative'}}>
-                            <Prevencion />
+                            <Prevencion tam="35px" />
                             <h2 style={itemStyle}>Prevención</h2>
                         </div>
                     </Col>
                     <Col>
                         <div style={{position:'relative'}}>
-                            <Contencion />
+                            <Contencion tam="35px" />
                             <h2 style={itemStyle}>Contención</h2>
                         </div>
                     </Col>
                     <Col>
                         <div style={{position:'relative'}}>
-                            <Reportes />
+                            <Reportes tam="35px" />
                             <h2 style={itemStyle}>Reportes</h2>
                         </div>
                     </Col>
                     <Col>
                         <div style={{position:'relative'}}>
-                            <Noticias />
+                            <Noticias tam="35px" />
                             <h2 style={itemStyle}>Noticias</h2>
                         </div>
                     </Col>

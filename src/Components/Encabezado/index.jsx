@@ -3,7 +3,7 @@ import Welcome from './Components/Welcome'
 import Logo from '../../Common/Logo/Logo'
 import React from "react";
 import { Row, Col  } from 'antd'
-import Navbar from '../Navbar';
+
 class Encabezado extends React.Component{
     render(){
         const headerStyle= {

@@ -15,7 +15,7 @@ class Index extends React.Component{
             <Layout>
                 <Encabezado />
                 <Navbar />
-                <a href="/details"><Alerta /></a>
+                <Alerta />
                 <Columnas />
                 <Menu />
                 <SobreNosotros />

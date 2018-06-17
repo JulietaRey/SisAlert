@@ -8,22 +8,32 @@ class Columnas extends React.Component{
         const ColumnaStyle= {
             margin: '3em' 
         }
+        const itemStyle={
+            bottom: '-8px',
+            right: '16px',
+            fontSize: '3vw',
+            position: 'absolute',
+            fontFamily: 'Arvo'
+        }
         return(
             <div style= {ColumnaStyle}>
-                <Row type="flex" around="xs" >
-                    <Col xs={8} >
-                        <div className="alerta uno">
-                                <Prevencion />
+                <Row type="flex" justify="space-between" around="xs" >
+                    <Col md={7} xs={24} >
+                        <div style={{position:'relative'}}>
+                                <Prevencion tam="15vw" />
+                                <h2 style={itemStyle}>Prevención</h2>
                         </div>
                     </Col>
-                   <Col xs={8} >
-                        <div className="alerta dos">
-                                <Accion />
+                   <Col md={7} xs={24} >
+                        <div style={{position:'relative'}}>
+                                <Accion tam="15vw" />
+                                <h2 style={itemStyle}>Acción</h2>
                         </div>
                     </Col>
-                    <Col xs={8} >
-                        <div className="alerta tres">
-                                <Contencion />
+                    <Col md={7} xs={24} >
+                        <div style={{position:'relative'}} >
+                                <Contencion tam="15vw" />
+                                <h2 style={itemStyle}>Contención</h2>
                         </div>
                     </Col>
                 </Row>

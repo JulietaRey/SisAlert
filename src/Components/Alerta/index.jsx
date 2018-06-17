@@ -18,27 +18,29 @@ class Alerta extends React.Component{
         }
         return(
             <div style= {backstyle}>
-                <Row align="middle" style= {alertStyle}>
-                    <Row justify="space-between" type="flex" style={separador}>
-                        <Col xs={24} sm={7} md={8} lg={6} xl={10}>
-                            <div className="titulo">
-                                    <Titulo />
-                            </div>
+                <a href="/details">
+                    <Row align="middle" style= {alertStyle}>
+                        <Row justify="space-between" type="flex" style={separador}>
+                            <Col xs={24} sm={7} md={8} lg={6} xl={10}>
+                                <div className="titulo">
+                                        <Titulo />
+                                </div>
+                            </Col>
+                            <Col xs={24} sm={10} md={8} lg={6} xl={4} >
+                                <Row align="middle" >
+                                    <Col xs={24} >
+                                        <Iconos />
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <Row type="flex" justify="center" align="middle" >
+                        <Col>
+                            <ContenidoAlerta />
                         </Col>
-                        <Col xs={24} sm={10} md={8} lg={6} xl={4} >
-                            <Row align="middle" >
-                                <Col xs={24} >
-                                    <Iconos />
-                                </Col>
-                            </Row>
-                        </Col>
+                        </Row>
                     </Row>
-                    <Row type="flex" justify="center" align="middle" >
-                      <Col>
-                        <ContenidoAlerta />
-                      </Col>
-                    </Row>
-                </Row>
+                </a>
             </div>
         );
     }

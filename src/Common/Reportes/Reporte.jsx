@@ -14,7 +14,7 @@ class Reporte extends React.Component{
             minWidth: '100%',
             minHeight: '100%',
             objectFit: 'cover',
-            height: '35px',
+            height: this.props.tam,
     
         }
         return (
