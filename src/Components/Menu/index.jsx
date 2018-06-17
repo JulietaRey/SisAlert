@@ -13,7 +13,7 @@ class Menu extends React.Component{
             fontSize: '3.5vw',
             position: 'absolute',
             fontFamily: 'Arvo',
-            color: '#38618c',
+            color: 'white',
             fontWeight: 'bold',
         }
         return(

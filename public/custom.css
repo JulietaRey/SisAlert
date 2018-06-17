@@ -16,3 +16,11 @@ div.ant-card-head {
         width: 20%;
     }
 }
+
+*:focus, a.alerta:focus, a.alerta:focus > *{
+    outline: 3px solid #79d3f5 !important;
+}
+
+.logo img {
+    width: 24vw;
+}

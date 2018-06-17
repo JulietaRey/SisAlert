@@ -18,7 +18,7 @@ class Alerta extends React.Component{
         }
         return(
             <div style= {backstyle}>
-                <a href="/details">
+                <a tabIndex="0" className="alerta" href="/details">
                     <Row align="middle" style= {alertStyle}>
                         <Row justify="space-between" type="flex" style={separador}>
                             <Col xs={24} sm={7} md={8} lg={6} xl={10}>
